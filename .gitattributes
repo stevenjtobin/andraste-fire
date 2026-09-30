@@ -1,0 +1,13 @@
+# Normalise text line endings on checkin
+* text=auto
+
+# Shell script MUST stay LF or it breaks on Unix / in the wrapper
+gradlew text eol=lf
+
+# Windows batch stays CRLF
+*.bat text eol=crlf
+
+# Binary
+*.jar binary
+*.png binary
+*.apk binary

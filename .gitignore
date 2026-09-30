@@ -1,0 +1,17 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+/app/build/
+/app/release/
+gradle/wrapper/dists/
+
+# Kotlin compiler scratch
+.kotlin/

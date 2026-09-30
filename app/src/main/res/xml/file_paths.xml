@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- app-private external files: /Android/data/<pkg>/files/andraste/... -->
+    <external-files-path name="andraste" path="andraste/" />
+    <!-- cache dir for the downloaded OTA APK -->
+    <cache-path name="cache" path="." />
+    <external-cache-path name="ext_cache" path="." />
+    <files-path name="internal" path="." />
+</paths>

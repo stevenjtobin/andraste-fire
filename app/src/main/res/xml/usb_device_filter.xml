@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RTL-SDR V3 -->
+    <usb-device vendor-id="0x0bda" product-id="0x2838" />
+    <!-- RTL-SDR Blog V4 -->
+    <usb-device vendor-id="0x0bda" product-id="0x2832" />
+    <!-- Alfa USB WiFi adapters (AWUS036ACH etc) -->
+    <usb-device vendor-id="0x0cf3" />
+    <!-- Realtek USB WiFi -->
+    <usb-device vendor-id="0x0bda" />
+    <!-- Ralink USB WiFi -->
+    <usb-device vendor-id="0x148f" />
+    <!-- Any USB device (broad filter, prompt user) -->
+</resources>

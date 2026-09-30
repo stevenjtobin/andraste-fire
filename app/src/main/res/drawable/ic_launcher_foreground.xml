@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Andraste sword — Snettisham gold, centred in the 72dp safe zone -->
+    <group android:scaleX="1.0" android:scaleY="1.0" android:pivotX="54" android:pivotY="54">
+
+        <!-- Blade -->
+        <path
+            android:fillColor="#D8A54A"
+            android:pathData="M52,26 L56,26 L56,74 L52,74 Z" />
+
+        <!-- Blade tip -->
+        <path
+            android:fillColor="#D8A54A"
+            android:pathData="M52,26 L54,20 L56,26 Z" />
+
+        <!-- Crossguard -->
+        <path
+            android:fillColor="#D8A54A"
+            android:pathData="M40,72 L68,72 L68,76 L40,76 Z" />
+
+        <!-- Grip -->
+        <path
+            android:fillColor="#8B6A2A"
+            android:pathData="M52,76 L56,76 L56,86 L52,86 Z" />
+
+        <!-- Pommel (torc ring) -->
+        <path
+            android:fillColor="#00B4A8"
+            android:pathData="M54,86 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 Z" />
+        <path
+            android:fillColor="#1A2E1A"
+            android:pathData="M54,86 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 Z" />
+    </group>
+</vector>
